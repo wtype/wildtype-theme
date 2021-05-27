@@ -134,7 +134,7 @@
       "scope": ["comment", "punctuation.definition.comment", "markup.quote.markdown"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#020a12"
+        "foreground": "#667481"
       }
     },
     {
@@ -178,7 +178,7 @@
       }
     },
     {
-      "name": "Sea Green",
+      "name": "Seagreen",
       "scope": ["support"],
       "settings": {
         "foreground": "#00b359"
@@ -197,7 +197,7 @@
       }
     },
     {
-      "name": "Purple",
+      "name": "Soup",
       "scope": ["constant.language", "entity.name.section.markdown", "storage.modifier"],
       "settings": {
         "foreground": "#cfcf75"
@@ -207,7 +207,7 @@
       "name": "Pink",
       "scope": ["constant.numeric", "constant.character.numeric"],
       "settings": {
-        "foreground": "#e56697"
+        "foreground": "#f06fa0"
       }
     },
     {
@@ -251,7 +251,7 @@
         "markup.inserted.math.display.markdown"
       ],
       "settings": {
-        "foreground": "#ffff4d"
+        "foreground": "#fcff4d"
       }
     },
     {
@@ -283,18 +283,16 @@
         "constant.other.color"
       ],
       "settings": {
-        "foreground": "#ffb84d"
+        "foreground": "#ff7f4d"
       }
     },
     {
-      "name": "Light Green",
+      "name": "Light Blue",
       "scope": [
         "meta.embedded.block",
         "meta.assertion",
         "meta.group.assertion",
         "meta.function-call.arguments",
-        "variable.other",
-        "variable.other.property",
         "entity.other.attribute-name",
         "string.unquoted.html",
         "meta.object",
@@ -306,10 +304,20 @@
       }
     },
     {
+      "name": "Violet",
+      "scope": [
+        "variable.other",
+        "variable.other.property",
+      ],
+      "settings": {
+        "foreground": "#b1aaf1"
+      }
+    },
+    {
       "name": "Mint",
       "scope": ["variable.parameter"],
       "settings": {
-        "foreground": "#76d576"
+        "foreground": "#6fd36f"
       }
     }
   ]
