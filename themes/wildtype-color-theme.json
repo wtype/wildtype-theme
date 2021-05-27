@@ -141,14 +141,14 @@
       "name": "Red Orange",
       "scope": ["markup.deleted", "support.type.exception", "token.error-token"],
       "settings": {
-        "foreground": "#ff661a"
+        "foreground": "#ff5b1a"
       }
     },
     {
       "name": "Light Red",
       "scope": ["variable.language"],
       "settings": {
-        "foreground": "#ff704d"
+        "foreground": "#f87e4e"
       }
     },
     {
@@ -181,7 +181,7 @@
       "name": "Seagreen",
       "scope": ["support"],
       "settings": {
-        "foreground": "#00b359"
+        "foreground": "#2ea880"
       }
     },
     {
@@ -283,7 +283,7 @@
         "constant.other.color"
       ],
       "settings": {
-        "foreground": "#ff7f4d"
+        "foreground": "#f0af72"
       }
     },
     {
@@ -310,14 +310,14 @@
         "variable.other.property",
       ],
       "settings": {
-        "foreground": "#b1aaf1"
+        "foreground": "#d6b7eb"
       }
     },
     {
       "name": "Mint",
       "scope": ["variable.parameter"],
       "settings": {
-        "foreground": "#6fd36f"
+        "foreground": "#8fc062"
       }
     }
   ]
