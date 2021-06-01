@@ -79,9 +79,9 @@
     "pickerGroup.foreground": "#020a12",
     "progressBar.background": "#020a12",
     "selection.background": "#020a12",
-    "scrollbarSlider.activeBackground": "#003838",
+    "scrollbarSlider.activeBackground": "#00126e93",
     "scrollbarSlider.background": "#07114350",
-    "scrollbarSlider.hoverBackground": "#003838",
+    "scrollbarSlider.hoverBackground": "#00126e93",
     "settings.checkboxBorder": "#020a12",
     "settings.checkboxForeground": "#aacbf1",
     "settings.dropdownForeground": "#aacbf1",
@@ -126,7 +126,8 @@
     "terminal.ansiBrightCyan": "#00ffff",
     "terminal.ansiBrightWhite": "#c4edc4",
     "terminal.foreground": "#aacbf1",
-    "tree.indentGuidesStroke": "#020a12"
+    "tree.indentGuidesStroke": "#020a12",
+    "editor.wordHighlightBackground": "#00178b",
   },
   "tokenColors": [
     {
@@ -149,7 +150,7 @@
       "scope": ["variable.language", "variable.language.this.js"],
       "settings": {
         "foreground": "#f87e4e",
-        "fontStyle": "bold"        
+        "fontStyle": "bold"
       }
     },
     {
@@ -269,7 +270,7 @@
         "markup.raw.block.markdown"
       ],
       "settings": {
-        "foreground": "#bd9847"
+        "foreground": "#D0A97C"
       }
     },
     {
@@ -302,7 +303,7 @@
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#aacbf1"
+        "foreground": "#a0bcf1"
       }
     },
     {
@@ -312,19 +313,39 @@
         "variable.other.property",
       ],
       "settings": {
-        "foreground": "#e0ebb7"
+        "foreground": "#e1e2b3"
       }
     },
     {
       "name": "Mint",
-      "scope": ["variable.parameter"],
+      "scope": ["variable.parameter",  "variable.language.arguments", "storage.type.class.js"],
       "settings": {
-        "foreground": "#8fc062"
+        "foreground": "#8fc062",
+        "fontStyle": "bold"
       }
     },
     {
-      "scope": ["meta.parameters.js"],
+      "name": "Rust",
+      "scope": ["keyword.operator.expression.in.js", "keyword.operator.expression.of.js"],
       "settings": {
+        "foreground": "#be5f5c",
+        "fontStyle": "bold"
+      }
+    },
+    {
+    "scope": [
+      "keyword.control.export",
+      "keyword.control.from",
+      "support.type.object.module"
+    ],
+    "settings": {
+        "foreground": "#b6e730",
+      }
+    },
+    {
+      "scope": ["keyword.control.default"],
+      "settings": {
+        "foreground": "#c4c369",
         "fontStyle": "bold"
       }
     },
