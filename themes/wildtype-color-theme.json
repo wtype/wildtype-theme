@@ -133,25 +133,36 @@
   "tokenColors": [
     {
       "name": "Stone",
-      "scope": ["comment", "punctuation.definition.comment", "markup.quote.markdown"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "markup.quote.markdown"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#667481"
       }
     },
     {
-      "name": "Dark Sunset",
-      "scope": ["markup.deleted", "support.type.exception", "token.error-token"],
-      "settings": {
-        "foreground": "#ff5b1a"
-      }
-    },
-    {
-      "name": "Light Sunset",
-      "scope": ["variable.language", "variable.language.this"],
+      "name": "Sunrise",
+      "scope": [
+        "variable.language",
+        "variable.language.this"
+      ],
       "settings": {
         "foreground": "#f87e4e",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Sunset",
+      "scope": [
+        "markup.deleted",
+        "support.type.exception",
+        "token.error-token"
+      ],
+      "settings": {
+        "foreground": "#ff5b1a"
       }
     },
     {
@@ -174,15 +185,20 @@
       }
     },
     {
-      "name": "Earth",
-      "scope": ["storage.type", "storage.type.class.jsdoc"],
+      "name": "Trail",
+      "scope": [
+        "storage.type",
+        "storage.type.class.jsdoc"
+      ],
       "settings": {
         "foreground": "#d0a97c"
       }
     },
     {
       "name": "Pine",
-      "scope": ["support"],
+      "scope": [
+        "support"
+      ],
       "settings": {
         "foreground": "#389c76"
       }
@@ -201,14 +217,21 @@
     },
     {
       "name": "Mineral",
-      "scope": ["constant.language", "entity.name.section.markdown", "storage.modifier"],
+      "scope": [
+        "constant.language",
+        "entity.name.section.markdown",
+        "storage.modifier"
+      ],
       "settings": {
         "foreground": "#cfcf75"
       }
     },
     {
       "name": "Flamingo",
-      "scope": ["constant.numeric", "constant.character.numeric"],
+      "scope": [
+        "constant.numeric",
+        "constant.character.numeric"
+      ],
       "settings": {
         "foreground": "#f06fa0"
       }
@@ -221,7 +244,9 @@
         "markup.fenced_code.block.markdown",
         "string.interpolated",
         "string.template",
-        "markup.inline.raw.string"
+        "markup.inline.raw.string",
+        "constant.numeric.css",
+        "keyword.other.unit"
       ],
       "settings": {
         "foreground": "#31ca71"
@@ -310,7 +335,10 @@
     },
     {
       "name": "Sand",
-      "scope": ["variable.other", "variable.other.property"],
+      "scope": [
+        "variable.other",
+        "variable.other.property"
+      ],
       "settings": {
         "foreground": "#e1e2b3"
       }
@@ -330,7 +358,10 @@
       }
     },
     {
-      "scope": ["variable.language.arguments", "variable.parameter"],
+      "scope": [
+        "variable.language.arguments",
+        "variable.parameter"
+      ],
       "settings": {
         "foreground": "#8fc062",
         "fontStyle": "bold"
@@ -346,6 +377,8 @@
         "keyword.control.at-rule.font-face.css",
         "punctuation.definition.block.tag.jsdoc",
         "markup.bold",
+        "entity.name.tag.wildcard.scss",
+        "punctuation.definition.entity.css"
       ],
       "settings": {
         "foreground": "#be5f5c",
@@ -354,7 +387,11 @@
     },
     {
       "name": "Meadow",
-      "scope": ["keyword.control.export", "keyword.control.from", "support.type.object.module"],
+      "scope": [
+        "keyword.control.export",
+        "keyword.control.from",
+        "support.type.object.module"
+      ],
       "settings": {
         "foreground": "#b6e730"
       }
@@ -365,6 +402,7 @@
         "keyword.control.default",
         "keyword.control.trycatch",
         "keyword.control.switch",
+        "entity.other.attribute-name.pseudo-class.css"
       ],
       "settings": {
         "foreground": "#c4c369",
@@ -373,14 +411,21 @@
     },
     {
       "name": "Rain",
-      "scope": ["variable.object.property", "meta.definition.property"],
+      "scope": [
+        "variable.object.property",
+        "meta.definition.property"
+      ],
       "settings": {
         "foreground": "#72a6af"
       }
     },
     {
       "name": "Hill",
-      "scope": ["constant.language.infinity", "constant.language.nan", "keyword.control.loop.js"],
+      "scope": [
+        "constant.language.infinity",
+        "constant.language.nan",
+        "keyword.control.loop.js"
+      ],
       "settings": {
         "foreground": "#659474",
         "fontStyle": "bold"
