@@ -315,7 +315,7 @@
     },
     {
       "name": "Mint",
-      "scope": ["variable.parameter", "variable.language.arguments", "storage.type.class.js"],
+      "scope": ["variable.parameter", "variable.language.arguments", "storage.type.class.js", "keyword.generator.asterisk",],
       "settings": {
         "foreground": "#8fc062",
         "fontStyle": "bold"
@@ -328,7 +328,9 @@
         "keyword.operator.expression.of.js",
         "meta.at-rule.font-face.css",
         "punctuation.definition.keyword.css",
-        "keyword.control.at-rule.font-face.css"
+        "keyword.control.at-rule.font-face.css",
+        "punctuation.definition.block.tag.jsdoc",
+        "entity.name.function.ts",
       ],
       "settings": {
         "foreground": "#be5f5c",
