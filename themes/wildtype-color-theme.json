@@ -250,7 +250,7 @@
         "keyword.operator.ellipsis",
         "punctuation.vararg-ellipses",
         "meta.separator.markdown",
-        "markup.inserted.math.display.markdown"
+        "markup.inserted.math.display.markdown",
       ],
       "settings": {
         "fontStyle": "bold",
@@ -284,7 +284,7 @@
         "markup.heading.setext",
         "punctuation.definition.list",
         "storage.type.function.arrow",
-        "constant.other.color"
+        "constant.other.color",
       ],
       "settings": {
         "foreground": "#f0af72"
@@ -301,7 +301,8 @@
         "string.unquoted.html",
         "meta.object",
         "constant.other",
-        "variable.other.constant"
+        "variable.other.constant",
+        "constant.other.character-class.regexp",
       ],
       "settings": {
         "foreground": "#7dc0ff"
@@ -329,6 +330,13 @@
       }
     },
     {
+      "scope": ["variable.language.arguments", "variable.parameter"],
+      "settings": {
+        "foreground": "#8fc062",
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "Rust",
       "scope": [
         "keyword.operator.expression.in",
@@ -337,6 +345,7 @@
         "punctuation.definition.keyword.css",
         "keyword.control.at-rule.font-face.css",
         "punctuation.definition.block.tag.jsdoc",
+        "markup.bold",
       ],
       "settings": {
         "foreground": "#be5f5c",
@@ -352,7 +361,11 @@
     },
     {
       "name": "Field",
-      "scope": ["keyword.control.default"],
+      "scope": [
+        "keyword.control.default",
+        "keyword.control.trycatch",
+        "keyword.control.switch",
+      ],
       "settings": {
         "foreground": "#c4c369",
         "fontStyle": "bold"
@@ -363,6 +376,14 @@
       "scope": ["variable.object.property", "meta.definition.property"],
       "settings": {
         "foreground": "#72a6af"
+      }
+    },
+    {
+      "name": "Hill",
+      "scope": ["constant.language.infinity", "constant.language.nan", "keyword.control.loop.js"],
+      "settings": {
+        "foreground": "#659474",
+        "fontStyle": "bold"
       }
     }
   ]
