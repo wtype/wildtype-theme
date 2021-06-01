@@ -1,21 +1,40 @@
 {
-    "name": "wildtype",
-    "displayName": "wildtype",
-    "description": "",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.46.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "wildtype",
-                "uiTheme": "vs-dark",
-                "path": "./themes/wildtype-color-theme.json"
-            }
-        ]
-    }
+  "name": "wildtype",
+  "displayName": "Wildtype",
+  "description": "Dark theme with calm, earthy colors contrasted with deep, dark blues.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "keywords": [
+    "nature",
+    "natural",
+    "green",
+    "earthy",
+    "earth",
+    "terrestrial",
+    "wildtype",
+    "wild",
+    "world",
+    "wilderness",
+    "dirt",
+    "soil",
+    "calm",
+    "flora",
+    "forest",
+    "meadow"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Wildtype",
+        "uiTheme": "vs-dark",
+        "path": "./themes/wildtype-color-theme.json"
+      }
+    ]
+  }
 }

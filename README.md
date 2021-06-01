@@ -1,6 +1,16 @@
-# README
+# Wildtype
 
-## This is the README for your extension "wildtype"
+## About
+
+Wildtype is a dark theme with calm, earthy colors contrasted with deep, dark blues.
+
+"Wildtype" is a play on [wild type](https://en.wikipedia.org/wiki/Wild_type) (the typical form of a species as it occurs in nature).
+
+This theme works well across many different languages and was originally put together for JavaScript and TypeScript development. Feel free to contribute if something can improve.
+
+## Recommended Settings
+
+### Bracket Pair Colorizer settings:
 
 ```json
   "bracketPairColorizer.consecutivePairColors": [
@@ -8,23 +18,16 @@
     "[]",
     "{}",
     [
-      "#E9AB49",
-      "LightSkyBlue",
-      "lightgreen"
+      "#f0af72",
+      "#7dc0ff",
+      "#8fc062"
     ],
-    "orangered"
+    "#ff5b1a"
   ],
 ```
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Credits
 
-- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-- Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-- Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Based off [Hackpot's](https://github.com/wwmyers/hackpot) JSON.
 
 **Enjoy!**
