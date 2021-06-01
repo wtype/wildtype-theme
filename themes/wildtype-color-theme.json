@@ -167,7 +167,7 @@
         "variable.other.property",
         "keyword.other.unit",
         "markup.list",
-        "string.other.link.title"
+        "string.other.link.title",
       ],
       "settings": {
         "foreground": "#cacaca",
@@ -175,7 +175,7 @@
     },
     {
       "name": "Earth",
-      "scope": ["storage.type"],
+      "scope": ["storage.type", "storage.type.class.jsdoc"],
       "settings": {
         "foreground": "#d0a97c"
       }
@@ -279,6 +279,7 @@
         "punctuation",
         "keyword.operator",
         "meta.brace",
+        "meta.block",
         "constant.character",
         "markup.heading.setext",
         "punctuation.definition.list",
@@ -303,7 +304,7 @@
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#7dcbff"
+        "foreground": "#7dc0ff"
       }
     },
     {
@@ -343,12 +344,14 @@
       }
     },
     {
+      "name": "Meadow",
       "scope": ["keyword.control.export", "keyword.control.from", "support.type.object.module"],
       "settings": {
         "foreground": "#b6e730"
       }
     },
     {
+      "name": "Field",
       "scope": ["keyword.control.default"],
       "settings": {
         "foreground": "#c4c369",
