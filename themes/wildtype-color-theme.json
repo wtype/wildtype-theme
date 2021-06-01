@@ -127,7 +127,7 @@
     "terminal.ansiBrightWhite": "#c4edc4",
     "terminal.foreground": "#aacbf1",
     "tree.indentGuidesStroke": "#020a12",
-    "editor.wordHighlightBackground": "#00178b",
+    "editor.wordHighlightBackground": "#00178b"
   },
   "tokenColors": [
     {
@@ -308,17 +308,14 @@
     },
     {
       "name": "Violet",
-      "scope": [
-        "variable.other",
-        "variable.other.property",
-      ],
+      "scope": ["variable.other", "variable.other.property"],
       "settings": {
         "foreground": "#e1e2b3"
       }
     },
     {
       "name": "Mint",
-      "scope": ["variable.parameter",  "variable.language.arguments", "storage.type.class.js"],
+      "scope": ["variable.parameter", "variable.language.arguments", "storage.type.class.js"],
       "settings": {
         "foreground": "#8fc062",
         "fontStyle": "bold"
@@ -326,20 +323,20 @@
     },
     {
       "name": "Rust",
-      "scope": ["keyword.operator.expression.in.js", "keyword.operator.expression.of.js"],
+      "scope": [
+        "keyword.operator.expression.in.js",
+        "keyword.operator.expression.of.js",
+        "meta.at-rule.font-face.css"
+      ],
       "settings": {
         "foreground": "#be5f5c",
         "fontStyle": "bold"
       }
     },
     {
-    "scope": [
-      "keyword.control.export",
-      "keyword.control.from",
-      "support.type.object.module"
-    ],
-    "settings": {
-        "foreground": "#b6e730",
+      "scope": ["keyword.control.export", "keyword.control.from", "support.type.object.module"],
+      "settings": {
+        "foreground": "#b6e730"
       }
     },
     {
@@ -352,8 +349,8 @@
     {
       "scope": ["variable.object.property.js", "meta.definition.property.js"],
       "settings": {
-        "foreground": "#72a6af",
+        "foreground": "#72a6af"
       }
-    },
+    }
   ]
 }
