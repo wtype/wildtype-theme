@@ -10,7 +10,7 @@
     "badge.background": "#020a12",
     "badge.foreground": "#aacbf1",
     "breadcrumb.background": "#020a12",
-    "breadcrumb.foreground": "#020a12",
+    "breadcrumb.foreground": "#cacaca",
     "button.background": "#020a12",
     "button.foreground": "#aacbf1",
     "dropdown.background": "#020a12",
@@ -211,7 +211,7 @@
       }
     },
     {
-      "name": "Aqua Blue",
+      "name": "Aqua Green",
       "scope": [
         "string.quoted",
         "punctuation.definition.string",
@@ -221,7 +221,7 @@
         "markup.inline.raw.string"
       ],
       "settings": {
-        "foreground": "#1fada6"
+        "foreground": "#31ca71"
       }
     },
     {
@@ -267,7 +267,7 @@
         "markup.raw.block.markdown"
       ],
       "settings": {
-        "foreground": "#b5a035"
+        "foreground": "#bd9847"
       }
     },
     {
@@ -310,7 +310,7 @@
         "variable.other.property",
       ],
       "settings": {
-        "foreground": "#d6b7eb"
+        "foreground": "#e0ebb7"
       }
     },
     {
