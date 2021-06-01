@@ -20,7 +20,7 @@
     "editorGroupHeader.tabsBackground": "#020a12",
     "editorGroup.border": "#020a12",
     "editorHoverWidget.background": "#020a12",
-    "editorHoverWidget.border": "#020a12",
+    "editorHoverWidget.border": "#083058",
     "editorHoverWidget.foreground": "#aacbf1",
     "editorIndentGuide.background": "#020a12",
     "editorLineNumber.activeForeground": "#cacaca",
@@ -52,7 +52,7 @@
     "input.background": "#020a12",
     "input.foreground": "#aacbf1",
     "input.placeholderForeground": "#aacbf1",
-    "list.activeSelectionBackground": "#002e7850",
+    "list.activeSelectionBackground": "#2f78ee50",
     "list.activeSelectionForeground": "#cacaca",
     "list.dropBackground": "#020a12",
     "list.focusBackground": "#002e7850",
@@ -78,7 +78,7 @@
     "pickerGroup.border": "#020a12",
     "pickerGroup.foreground": "#020a12",
     "progressBar.background": "#020a12",
-    "selection.background": "#020a12",
+    "selection.background": "#083058",
     "scrollbarSlider.activeBackground": "#00126e93",
     "scrollbarSlider.background": "#07114350",
     "scrollbarSlider.hoverBackground": "#00126e93",
@@ -109,29 +109,30 @@
     "tab.unfocusedActiveForeground": "#cacaca95",
     "tab.unfocusedActiveBorder": "#baa122",
     "tab.unfocusedInactiveForeground": "#cacaca90",
-    "terminal.ansiBlack": "#020a12",
-    "terminal.ansiRed": "#ff704d",
-    "terminal.ansiGreen": "#020a12",
+    "terminal.ansiBlack": "#519eeb",
+    "terminal.ansiRed": "#f87e4e",
+    "terminal.ansiGreen": "#cfcf75",
     "terminal.ansiYellow": "#ffff99",
     "terminal.ansiBlue": "#268BD2",
-    "terminal.ansiMagenta": "#c233ff",
+    "terminal.ansiMagenta": "#f06fa0",
     "terminal.ansiCyan": "#1b9891",
     "terminal.ansiWhite": "#aacbf1",
     "terminal.ansiBrightBlack": "#00126e",
-    "terminal.ansiBrightRed": "#f35d12",
+    "terminal.ansiBrightRed": "#ff5b1a",
     "terminal.ansiBrightGreen": "#cacaca",
-    "terminal.ansiBrightYellow": "#ffff1a",
-    "terminal.ansiBrightBlue": "#17b4ac",
+    "terminal.ansiBrightYellow": "#e1e2b3",
+    "terminal.ansiBrightBlue": "#7dcbff",
     "terminal.ansiBrightMagenta": "#cfcf75",
-    "terminal.ansiBrightCyan": "#00ffff",
+    "terminal.ansiBrightCyan": "#389c76",
     "terminal.ansiBrightWhite": "#c4edc4",
     "terminal.foreground": "#aacbf1",
+    "terminal.selectionBackground": "#00126e",
     "tree.indentGuidesStroke": "#020a12",
     "editor.wordHighlightBackground": "#00178b"
   },
   "tokenColors": [
     {
-      "name": "Dark Green",
+      "name": "Stone",
       "scope": ["comment", "punctuation.definition.comment", "markup.quote.markdown"],
       "settings": {
         "fontStyle": "italic",
@@ -139,15 +140,15 @@
       }
     },
     {
-      "name": "Red Orange",
+      "name": "Dark Sunset",
       "scope": ["markup.deleted", "support.type.exception", "token.error-token"],
       "settings": {
         "foreground": "#ff5b1a"
       }
     },
     {
-      "name": "Light Red",
-      "scope": ["variable.language", "variable.language.this.js"],
+      "name": "Light Sunset",
+      "scope": ["variable.language", "variable.language.this"],
       "settings": {
         "foreground": "#f87e4e",
         "fontStyle": "bold"
@@ -173,7 +174,7 @@
       }
     },
     {
-      "name": "Tan",
+      "name": "Earth",
       "scope": ["storage.type"],
       "settings": {
         "foreground": "#d0a97c"
@@ -187,7 +188,7 @@
       }
     },
     {
-      "name": "Blue",
+      "name": "Stream",
       "scope": [
         "meta.function.url",
         "markup.underline.link",
@@ -199,21 +200,21 @@
       }
     },
     {
-      "name": "Soup",
+      "name": "Mineral",
       "scope": ["constant.language", "entity.name.section.markdown", "storage.modifier"],
       "settings": {
         "foreground": "#cfcf75"
       }
     },
     {
-      "name": "Pink",
+      "name": "Flamingo",
       "scope": ["constant.numeric", "constant.character.numeric"],
       "settings": {
         "foreground": "#f06fa0"
       }
     },
     {
-      "name": "Aqua Green",
+      "name": "Leaf",
       "scope": [
         "string.quoted",
         "punctuation.definition.string",
@@ -227,11 +228,10 @@
       }
     },
     {
-      "name": "Yellow",
+      "name": "Field",
       "scope": [
         "constant.character.escape",
         "constant.other.placeholder",
-        "constant.other.character-class",
         "constant.character.entity",
         "keyword.operator.new",
         "keyword.operator.ternary",
@@ -258,10 +258,10 @@
       }
     },
     {
-      "name": "Brown",
+      "name": "Mud",
       "scope": [
         "keyword",
-        "storage.type.js",
+        "storage.type",
         "storage.type.function",
         "entity.other",
         "support.type.property-name",
@@ -274,7 +274,7 @@
       }
     },
     {
-      "name": "Orange",
+      "name": "Dirt",
       "scope": [
         "punctuation",
         "keyword.operator",
@@ -290,7 +290,7 @@
       }
     },
     {
-      "name": "Light Blue",
+      "name": "Water",
       "scope": [
         "meta.embedded.block",
         "meta.assertion",
@@ -303,19 +303,25 @@
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#a0bcf1"
+        "foreground": "#7dcbff"
       }
     },
     {
-      "name": "Violet",
+      "name": "Sand",
       "scope": ["variable.other", "variable.other.property"],
       "settings": {
         "foreground": "#e1e2b3"
       }
     },
     {
-      "name": "Mint",
-      "scope": ["variable.parameter", "variable.language.arguments", "storage.type.class.js", "keyword.generator.asterisk",],
+      "name": "Swamp",
+      "scope": [
+        "variable.parameter",
+        "variable.language.arguments",
+        "storage.type.class",
+        "keyword.generator.asterisk",
+        "constant.other.character-class"
+      ],
       "settings": {
         "foreground": "#8fc062",
         "fontStyle": "bold"
@@ -324,13 +330,12 @@
     {
       "name": "Rust",
       "scope": [
-        "keyword.operator.expression.in.js",
-        "keyword.operator.expression.of.js",
+        "keyword.operator.expression.in",
+        "keyword.operator.expression.of",
         "meta.at-rule.font-face.css",
         "punctuation.definition.keyword.css",
         "keyword.control.at-rule.font-face.css",
         "punctuation.definition.block.tag.jsdoc",
-        // "entity.name.function.ts",
       ],
       "settings": {
         "foreground": "#be5f5c",
@@ -351,7 +356,8 @@
       }
     },
     {
-      "scope": ["variable.object.property.js", "meta.definition.property.js"],
+      "name": "Rain",
+      "scope": ["variable.object.property", "meta.definition.property"],
       "settings": {
         "foreground": "#72a6af"
       }
