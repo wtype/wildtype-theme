@@ -146,9 +146,10 @@
     },
     {
       "name": "Light Red",
-      "scope": ["variable.language"],
+      "scope": ["variable.language", "variable.language.this.js"],
       "settings": {
-        "foreground": "#f87e4e"
+        "foreground": "#f87e4e",
+        "fontStyle": "bold"        
       }
     },
     {
@@ -251,7 +252,8 @@
         "markup.inserted.math.display.markdown"
       ],
       "settings": {
-        "foreground": "#fcff4d"
+        "fontStyle": "bold",
+        "foreground": "#afe26d"
       }
     },
     {
@@ -319,6 +321,18 @@
       "settings": {
         "foreground": "#8fc062"
       }
-    }
+    },
+    {
+      "scope": ["meta.parameters.js"],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["variable.object.property.js", "meta.definition.property.js"],
+      "settings": {
+        "foreground": "#72a6af",
+      }
+    },
   ]
 }
