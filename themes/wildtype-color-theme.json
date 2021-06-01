@@ -154,7 +154,7 @@
       }
     },
     {
-      "name": "Bright Green",
+      "name": "Rock",
       "scope": [
         "entity.name.function",
         "entity.name.tag",
@@ -169,7 +169,7 @@
         "string.other.link.title"
       ],
       "settings": {
-        "foreground": "#cacaca"
+        "foreground": "#cacaca",
       }
     },
     {
@@ -330,7 +330,7 @@
         "punctuation.definition.keyword.css",
         "keyword.control.at-rule.font-face.css",
         "punctuation.definition.block.tag.jsdoc",
-        "entity.name.function.ts",
+        // "entity.name.function.ts",
       ],
       "settings": {
         "foreground": "#be5f5c",
