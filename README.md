@@ -8,6 +8,8 @@ Wildtype is a dark theme with calm, earthy colors contrasted with deep, dark blu
 
 This theme works well across many different languages and was originally put together for JavaScript and TypeScript development. Feel free to contribute if something can improve.
 
+![Wildtype](https://github.com/wtype/wildtype-theme/raw/master/images/wildtype.png)
+
 ## Recommended settings
 
 ### Bracket Pair Colorizer settings

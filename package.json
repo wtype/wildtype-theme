@@ -9,6 +9,7 @@
     "type": "git",
     "url": "https://github.com/wtype/wildtype-theme.git"
   },
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.46.0"
   },
