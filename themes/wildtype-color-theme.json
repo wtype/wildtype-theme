@@ -43,6 +43,7 @@
     "editor.selectionBackground": "#00126e",
     "errorForeground": "#aacbf1",
     "focusBorder": "#020a12",
+    "window.activeBorder": "#020a12",
     "inputOption.activeBorder": "#baa122",
     "inputValidation.errorBackground": "#020a12",
     "inputValidation.errorBorder": "#020a12",

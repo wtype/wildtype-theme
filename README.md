@@ -8,6 +8,12 @@ Wildtype is a dark theme with calm, earthy colors contrasted with deep, dark blu
 
 This theme works well across many different languages and was originally put together for JavaScript and TypeScript development. Feel free to contribute if something can improve.
 
+## Install
+
+This extension can be installed directly in VS Code extensions tab, or by visiting and clicking install from: https://marketplace.visualstudio.com/items?itemName=wildtype.wildtype
+
+## Screenshots
+
 ![Wildtype](https://github.com/wtype/wildtype-theme/raw/master/images/typescript.png)
 
 ![Wildtype](https://github.com/wtype/wildtype-theme/raw/master/images/python.png)
