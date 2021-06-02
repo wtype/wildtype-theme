@@ -28,6 +28,7 @@
     "editorMarkerNavigationError.background": "#ff661a",
     "editorMarkerNavigationWarning.background": "#020a12",
     "editorPane.background": "#020a12",
+    "titleBar.activeBackground": "#020a12",
     "editorSuggestWidget.selectedBackground": "#00126e",
     "editorUnnecessaryCode.opacity": "#000000c0",
     "editorWidget.background": "#020a12",
