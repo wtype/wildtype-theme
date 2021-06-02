@@ -12,7 +12,7 @@ This theme works well across many different languages and was originally put tog
 
 ![Wildtype](https://github.com/wtype/wildtype-theme/raw/master/images/python.png)
 
-![Wildtype](https://github.com/wtype/wildtype-theme/raw/master/images/wildtype.png)
+![Wildtype](https://github.com/wtype/wildtype-theme/raw/master/images/javascript.png)
 
 ## Recommended settings
 
