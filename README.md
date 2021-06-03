@@ -22,8 +22,6 @@ This extension can be installed directly in VS Code extensions tab, or by visiti
 
 ![Wildtype theme Powershell](https://github.com/wtype/wildtype-theme/raw/master/images/powershell.png)
 
-![Wildtype theme JavaScript2](https://github.com/wtype/wildtype-theme/raw/master/images/javascript.png)
-
 ## Recommended settings
 
 ### Bracket Pair Colorizer settings
