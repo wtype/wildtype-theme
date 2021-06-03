@@ -14,11 +14,15 @@ This extension can be installed directly in VS Code extensions tab, or by visiti
 
 ## Screenshots
 
-![Wildtype](https://github.com/wtype/wildtype-theme/raw/master/images/typescript.png)
+![Wildtype theme TypeScript](https://github.com/wtype/wildtype-theme/raw/master/images/typescript.png)
 
-![Wildtype](https://github.com/wtype/wildtype-theme/raw/master/images/python.png)
+![Wildtype theme Python](https://github.com/wtype/wildtype-theme/raw/master/images/python.png)
 
-![Wildtype](https://github.com/wtype/wildtype-theme/raw/master/images/javascript.png)
+![Wildtype theme JavaScript](https://github.com/wtype/wildtype-theme/raw/master/images/javascript2.png)
+
+![Wildtype theme Powershell](https://github.com/wtype/wildtype-theme/raw/master/images/powershell.png)
+
+![Wildtype theme JavaScript2](https://github.com/wtype/wildtype-theme/raw/master/images/javascript.png)
 
 ## Recommended settings
 
@@ -29,13 +33,9 @@ This extension can be installed directly in VS Code extensions tab, or by visiti
     "()",
     "[]",
     "{}",
-    [
-      "#f0af72",
-      "#7dc0ff",
-      "#8fc062"
-    ],
+    ["#f0af72", "#7dc0ff", "#8fc062"],
     "#ff5b1a"
-  ],
+  ]
 ```
 
 ## Credits
