@@ -10,6 +10,8 @@ This theme works well across many different languages and was originally put tog
 
 ## Install
 
+VS Code Themes: https://vscodethemes.com/e/wildtype.wildtype
+
 This extension can be installed directly in VS Code extensions tab, or by visiting and clicking install from: https://marketplace.visualstudio.com/items?itemName=wildtype.wildtype
 
 ## Screenshots
