@@ -60,7 +60,7 @@
     "list.focusBackground": "#002e7850",
     "list.highlightForeground": "#cacaca",
     "list.hoverBackground": "#002e7850",
-    "list.inactiveSelectionBackground": "#020a12",
+    "list.inactiveSelectionBackground": "#042343",
     "list.inactiveSelectionForeground": "#cacaca",
     "minimap.findMatchHighlight": "#aacbf1",
     "minimap.selectionHighlight": "#cacaca",
